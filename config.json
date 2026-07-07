@@ -1,0 +1,19 @@
+{
+  "name": "superspecflow",
+  "version": "1.0.0",
+  "description": "OpenSpec + Superpowers 项目集成工具包，包含 single/monorepo 和 multi-repo 两个 Skill",
+  "nodeVersion": {
+    "openspecMinMajor": 20,
+    "description": "OpenSpec CLI 要求的 Node.js 最低主版本号"
+  },
+  "specs": {
+    "files": ["architecture.md", "coding-conventions.md", "business-domain.md"],
+    "baselineDir": "shared",
+    "description": "规范文件列表和团队基准文件目录（相对于 superspecflow 根目录）"
+  },
+  "skills": {
+    "single": "superspec-single",
+    "multi": "superspec-multi",
+    "description": "两个 Skill 的目录名，single 适用于 single/monorepo 项目，multi 适用于 multi-repo 项目"
+  }
+}

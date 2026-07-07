@@ -1,0 +1,12 @@
+{
+  "name": "superspecflow",
+  "description": "superspecflow plugin marketplace",
+  "plugins": [
+    {
+      "name": "superspecflow",
+      "description": "OpenSpec + Superpowers project integration toolkit: spec-driven development with AI skill orchestration for single/monorepo and multi-repo projects",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}
